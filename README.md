@@ -115,7 +115,7 @@ The app keeps the exact structured prompt visible for review and includes an arc
 - Python dependencies are managed with `uv`.
 - Environment variables are loaded from `.env` through the `dotenv` package.
 - The model is initialized in one place through LangChain's `init_chat_model`.
-- The active default model is `gpt-5-nano`.
+- The active default model is `gemini`.
 
 ---
 
@@ -203,8 +203,8 @@ pip install uv
 ### 1. Clone the repository
 
 ```bash
-git https://github.com/Mohamad-Hachem/MultiAgent_Wedding_Planner_With_Langchain.git
-cd MultiAgent_Wedding_Planner_With_Langchain
+git https://github.com/Vivekv81/Multi-Agent-Weeding-Planner.git
+cd Multi-Agent-Weeding-Planner
 ```
 
 ### 2. Install dependencies
